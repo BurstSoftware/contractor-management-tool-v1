@@ -112,7 +112,7 @@ def export_data():
     return projects_df.to_csv(index=False), tasks_df.to_csv(index=False), expenses_df.to_csv(index=False)
 
 def main():
-    st.title("Project Management App v1.02")
+    st.title("Contractor Management Tool v1.02")
 
     with st.expander("Add New Person"):
         if st.session_state.get('clear_person_input', False):
